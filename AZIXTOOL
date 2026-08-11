@@ -1809,10 +1809,6 @@ createAction(ScriptPage, "Infinity Yield", function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 end)
 
-createAction(ScriptPage, "XH4B_TOOL", function()
-	print("hello")
-end)
-
 createAction(ScriptPage, "SP HUB", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/as6cd0/SP_Hub/refs/heads/main/Brookhaven"))()
 end)
