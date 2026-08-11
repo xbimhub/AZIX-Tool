@@ -599,17 +599,17 @@ local Pages = {}
 local CategoryButtons = {}
 
 local Categories = {
-    {"MOVEMENT", "MOVEMENT"},
-    {"LOCK", "LOCK"},
-    {"VISUAL", "VISUAL"},
-    {"TELEPORT", "TELEPORT"},
-    {"FLING", "FLING"},
-    {"FUN", "FUN"},
-    {"CAMERA", "CAMERA"},
-    {"WORLD", "WORLD"},
-    {"DEBUG", "DEBUG"},
-    {"PLAYER", "PLAYER"},
-    {"SETTINGS", "SETTINGS"},
+    {"MOVEMENT", "01"},
+    {"LOCK", "02"},
+    {"VISUAL", "03"},
+    {"TELEPORT", "04"},
+    {"FLING", "05"},
+    {"FUN", "06"},
+    {"CAMERA", "07"},
+    {"WORLD", "08"},
+    {"DEBUG", "09"},
+    {"PLAYER", "10"},
+    {"SETTINGS", "11"},
 }
 
 local function createPage(name)
